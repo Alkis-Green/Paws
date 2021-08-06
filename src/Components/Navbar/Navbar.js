@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 
+
 import {
     Nav,
     NavbarContainer,
@@ -12,7 +13,8 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    ImgLogo,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -40,7 +42,7 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: '#fff'}}>
                 <Nav scrollNav={ scrollNav }>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={ toggleHome }>Paws</NavLogo>
+                        <NavLogo to="/" onClick={toggleHome}>Paws 🐾</NavLogo>
                         <MobileIcon onClick={ toggle }>
                             <FaBars />
                         </MobileIcon>

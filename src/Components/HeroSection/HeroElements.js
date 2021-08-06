@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 680px;
     position: relative;
     z-index: 1;
 
@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background: linear-gradient(
         180deg, rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%),
+        rgba(0, 0, 0, 0.4) 100%),
         linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
         // WILL PROBABLY HAVE THAT!!!!
         z-index: 2;
@@ -57,7 +57,7 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-    color: #FFF;
+    color: #fff;
     font-size: 48px;
     text-align: center;
 

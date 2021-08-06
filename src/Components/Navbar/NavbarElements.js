@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
+
+
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
@@ -33,14 +35,16 @@ export const NavLogo = styled(LinkRouter)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
+    text-decoration: none;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.3rem;
-    text-decoration: none;
+    //LOGO FIX
 `
+
 
 export const MobileIcon = styled.div`
     display: none;

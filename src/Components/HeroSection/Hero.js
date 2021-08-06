@@ -28,8 +28,8 @@ const Hero = () => {
                 <ImgBg src={Image} type="HeroImg/jpg" />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Something About Dogs</HeroH1>
-                <HeroP>More stuff about dogs and animals</HeroP>
+                <HeroH1>Paws Training Academy <br /> for you and your dog</HeroH1>
+                <HeroP>The best thing you can give to your little friend</HeroP>
                 <HeroBtnWrapper>
                     <Button
                         onMouseEnter={onHover}
@@ -43,7 +43,7 @@ const Hero = () => {
                         exact="true"
                         offset={-80}
                     >
-                        Dogie Stuff
+                        Sign Up to learn more
                         {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
