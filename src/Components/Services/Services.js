@@ -19,8 +19,7 @@ const Services = () => {
                     <ServicesIcon src={Icon1} />
                     <ServicesH2>Dogs Well-Being</ServicesH2>
                     <ServicesP>There are few feelings as satisfying as mastering a skill that matters.
-                        After you graduate from our program you still learn each day…
-                        your experience and expertise grows with each and every dog you meet.
+                        Your experience and expertise grows with each and every dog you meet.
                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
@@ -28,7 +27,6 @@ const Services = () => {
                     <ServicesH2>Make a great living</ServicesH2>
                     <ServicesP>Not all dog trainers are created equal.
                         There is incredible demand and the profit margin in dog training is very favorable.
-                        This is just good math.
                     </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
@@ -37,7 +35,6 @@ const Services = () => {
                     <ServicesP>Let’s face it, self-employment has a lot of perks…
                         none the least of which is bringing your dog to work with you!
                         The life of a dog trainer is one of flexibility and freedom.
-                        You, quite literally, make the rules.
                     </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
